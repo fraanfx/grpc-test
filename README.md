@@ -21,8 +21,8 @@ This project includes:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/grpc-simple-test.git
-   cd grpc-simple-test
+   git clone https://github.com/fraanfx/grpc-test
+   cd grpc
 
 
 [Reference](https://www.youtube.com/watch?v=Yw4rkaTc0f8&ab_channel=HusseinNasser) 
