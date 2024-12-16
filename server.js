@@ -30,6 +30,11 @@ function createTodo (call, callback) {
     callback(null, todoItem);
 }
 
+function readTodosStream(call, callback){
+    todos.forEach(t => call.write(t));
+    call.end();
+}
+
 function readTodos (call, callback){
     callback(null, {"items": todos})
     //console.log('Check todos: ',todos) //Returns all todos stored
